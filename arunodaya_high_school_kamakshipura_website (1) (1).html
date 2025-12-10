@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Arunodaya High School — Kamakshi Pur</title>
+  <meta name="description" content="Arunodaya High School Kamakshi Pur — Established 1992. Grades 8-10. Kannada medium. Rural location.">
+  <style>
+    :root{--accent:#0b6cf0;--muted:#6b7280;--card:#ffffff;--bg:#f7fafc}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:var(--bg);color:#0f172a;line-height:1.5}
+    header{background:linear-gradient(90deg,#0b6cf0 0%,#0b94f0 100%);color:white;padding:18px 20px;position:sticky;top:0;z-index:40}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand h1{font-size:20px;margin:0}
+    nav{margin-top:8px}
+    .nav-links{display:flex;gap:14px;flex-wrap:wrap}
+    .nav-links a{color:rgba(255,255,255,0.95);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;padding:30px 0}
+    .hero-card{background:linear-gradient(180deg,rgba(255,255,255,0.06),transparent);padding:24px;border-radius:12px}
+
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(11,20,40,0.06)}
+    h2{margin-top:0}
+    .muted{color:var(--muted);font-size:0.95rem}
+
+    ul.specs{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    ul.specs li{background:#f1f5f9;padding:10px;border-radius:8px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .gallery img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+
+    table{width:100%;border-collapse:collapse}
+    table th,table td{padding:8px;border-bottom:1px solid #e6eef8;text-align:left}
+
+    footer{padding:24px 0;color:var(--muted)}
+
+    /* responsive */
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.nav-links{gap:10px}}
+    @media(max-width:520px){.gallery{grid-template-columns:1fr}.brand h1{font-size:16px}.nav-links{display:none}}
+
+    /* small review styles */
+    .reviews{display:flex;flex-direction:column;gap:12px}
+    .review-item{padding:12px;border-radius:8px;background:#fbfdff}
+    .meta{font-size:0.9rem;color:var(--muted)}
+
+    /* contact form */
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    @media(max-width:700px){.form-row{grid-template-columns:1fr}}
+    input,textarea,select{padding:10px;border:1px solid #e6eef8;border-radius:8px;font-size:1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div style="width:56px;height:56px;background:white;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)">A<br>HS</div>
+        <div>
+          <h1>ARUNODAYA HIGH SCHOOL — KAMAKSHIPURA</h1>
+          <div class="muted">Established 1992 • Kannada medium • Rural (Bengaluru U North)</div>
+        </div>
+      </div>
+      <nav>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#facilities">Facilities</a>
+          <a href="#academics">Academics</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card card">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+          <div>
+            <h2>Welcome to Arunodaya High School, Kamakshipura</h2>
+            <p class="muted">A co-educational, privately aided secondary school (Grades 8–10) serving the local rural community since 1992. Instruction medium: Kannada. Academic session starts in April.</p>
+            <div style="margin-top:14px">
+              <a class="btn" href="#contact">Enquire / Visit</a>
+            </div>
+          </div>
+          <div style="min-width:240px;max-width:420px">
+            <img src=" alt="school" style="width:100%;border-radius:10px;display:block;object-fit:cover;"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Quick facts</h3>
+        <ul class="specs">
+          <li><strong>Established:</strong> 1992</li>
+          <li><strong>Management:</strong> Pvt. Aided</li>
+          <li><strong>Grades:</strong> 8–10</li>
+          <li><strong>Gender:</strong> Co-educational</li>
+          <li><strong>Medium:</strong> Kannada</li>
+          <li><strong>Location:</strong> Rural — Bengaluru U North</li>
+          <li><strong>Classrooms:</strong> 8 (good condition)</li>
+          <li><strong>Total teachers:</strong> 9 (Male:8, Female:1)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="card" style="margin-top:18px">
+      <h2>About ARUNODAYA HIGH SCHOOL KAMAKSHIPURA</h2>
+      <p>ARUNODAYA HIGH SCHOOL KAMAKSHI PUR was established in 1992 and it is managed by the Private Aided society. The school is located in a rural area inside the NORTH4 block of BENGALURU U NORTH district of Karnataka. It provides education for Grades 8 to 10, is co-educational, and conducts instruction in Kannada. The academic session begins in April each year.</p>
+
+      <h3>Infrastructure & facilities</h3>
+      <p>The school operates from a rented building and has 8 classrooms in good condition, plus 2 additional rooms for non-teaching activities and a separate room for the Headmaster/Teacher. The campus has no boundary wall but is approachable via an all-weather road. Electricity connection is available and tap water is the functional source of drinking water.</p>
+
+      <p>Sanitation: 1 boys toilet (functional) and 1 girls toilet (functional). The school has a playground and a library containing 360 books. There are no computers or a computer-aided learning lab at present. The school does not require a ramp to access classrooms.</p>
+
+      <p>Mid-day meal: Provided but not prepared on school premises.</p>
+    </section>
+
+    <section id="facilities" class="card" style="margin-top:18px">
+      <h2>Facilities</h2>
+      <div class="grid">
+        <div>
+          <h3>Basic amenities</h3>
+          <ul class="muted">
+            <li>Electric connection: Yes</li>
+            <li>Drinking water: Tap (functional)</li>
+            <li>Sanitation: Functional toilets for boys and girls</li>
+            <li>Playground available</li>
+            <li>Library: 360 books</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Rooms & infrastructure</h3>
+          <ul class="muted">
+            <li>8 instructional classrooms</li>
+            <li>2 non-teaching rooms</li>
+            <li>Separate Head master room</li>
+            <li>No boundary wall</li>
+            <li>Rented building</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="academics" class="card" style="margin-top:18px">
+      <h2>Academics & Staff</h2>
+      <table aria-label="Academic details">
+        <tr><th>Item</th><th>Details</th></tr>
+        <tr><td>Instruction medium</td><td>Kannada</td></tr>
+        <tr><td>Classes</td><td>8 to 10</td></tr>
+        <tr><td>Board for Class 10</td><td>State Board / Others</td></tr>
+        <tr><td>Academic level</td><td>Secondary only (9-10)</td></tr>
+        <tr><td>Total teachers</td><td>9 (Male: 8, Female: 1)</td></tr>
+        <tr><td>Head Teacher</td><td>Not recorded</td></tr>
+        <tr><td>Pre-primary</td><td>Not available</td></tr>
+        <tr><td>Computer facilities</td><td>No computers / No CAL lab</td></tr>
+        <tr><td>Mid-day meal</td><td>Provided but not prepared on premises</td></tr>
+      </table>
+    </section>
+
+    <section id="gallery" class="card" style="margin-top:18px">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src= alt="playground">
+        <img src= alt="library">
+        <img src=alt="classroom">
+      </div>
+      <p class="muted" style="margin-top:10px">Tip: replace these placeholders with real photos of the school for a better look.</p>
+    </section>
+
+    <section id="reviews" class="card" style="margin-top:18px">
+      <h2>Reviews & Feedback</h2>
+      <div class="muted">Below are sample reviews and a small form so visitors can leave feedback. You can later connect the form to a server or Google Forms.</div>
+
+      <div class="reviews" id="reviews-list" style="margin-top:12px">
+        <div class="review-item">
+          <strong>Parent — S. Kumar</strong>
+          <div class="meta">Visited: 2024-12-01 • Rating: ★★★★☆</div>
+          <p>"Teachers are caring and classrooms are well maintained. Library could use more books and the school needs basic computer facilities. Mid-day meals are provided which helps many students."</p>
+        </div>
+        <div class="review-item">
+          <strong>Alumnus — Meera</strong>
+          <div class="meta">Batch: 2010 • Rating: ★★★☆☆</div>
+          <p>"Good neighbourhood school for foundational education. Would like to see more extracurricular activities and digital learning added."</p>
+        </div>
+        <div class="review-item">
+          <strong>Community — Local Resident</strong>
+          <div class="meta">Rating: ★★★★☆</div>
+          <p>"Arunodaya High School serves the local children well with caring teachers and a safe playground. Improvements needed: more library books, basic computer access, and a secure boundary wall. Overall a dependable school for rural families."</p>
+        </div>
+      </div>
+
+      <form id="review-form" style="margin-top:12px" onsubmit="return addReview(event)">
+        <div class="form-row">
+          <input id="rname" placeholder="Your name" required>
+          <select id="rrating" required>
+            <option value="5">★★★★★ (5)</option>
+            <option value="4">★★★★ (4)</option>
+            <option value="3">★★★ (3)</option>
+            <option value="2">★★ (2)</option>
+            <option value="1">★ (1)</option>
+          </select>
+        </div>
+        <div style="margin-top:8px">
+          <textarea id="rtext" rows="3" placeholder="Write your review" required></textarea>
+        </div>
+        <div style="margin-top:8px">
+          <button class="btn">Submit Review</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:18px;margin-bottom:30px">
+      <h2>Contact & Visit</h2>
+      <p class="muted">To schedule a visit or ask about admissions, please use the form below or use the phone/visit options.</p>
+      <div class="grid" style="align-items:start">
+        <div>
+          <h3>Contact details</h3>
+          <p class="muted"><strong>ARUNODAYA HIGH SCHOOL KAMAKSHI PUR</strong><br>Kakolu, North4<br>Bengaluru U North, Karnataka<br>PIN Code: 560089, INDIA</p>
+          <p class="muted">Mobile: +919902602640 <br>Email: KEMAPARAJP560089@GMAIL.COM </p>
+          <p class="muted">Medium: Kannada • Academic session starts in April</p>
+        </div>
+        <div>
+          <h3>Enquiry form</h3>
+          <form onsubmit="return submitEnquiry(event)">
+            <input id="ename" placeholder="Your name" required style="width:100%;margin-bottom:8px">
+            <input id="ephone" placeholder="Phone or email" required style="width:100%;margin-bottom:8px">
+            <textarea id="emsg" rows="3" placeholder="Your message / question" required style="width:100%"></textarea>
+            <div style="margin-top:8px"><button class="btn">Send Enquiry</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>ARUNODAYA HIGH SCHOOL — KAMAKSHIPURA</strong>
+          <div class="muted">Established 1992 • Pvt. Aided • Grades 8-10</div>
+        </div>
+        <div class="muted">Designed for quick edits • Save this file as <code>index.html</code> and open in a browser.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function addReview(e){
+      e.preventDefault();
+      const name = document.getElementById('rname').value.trim();
+      const rating = document.getElementById('rrating').value;
+      const text = document.getElementById('rtext').value.trim();
+      if(!name||!text) return;
+      const container = document.getElementById('reviews-list');
+      const div = document.createElement('div');
+      div.className='review-item';
+      div.innerHTML = `<strong>${escapeHtml(name)}</strong><div class="meta">Visited: ${new Date().toISOString().slice(0,10)} • Rating: ${'★'.repeat(rating)}${'☆'.repeat(5-rating)}</div><p>${escapeHtml(text)}</p>`;
+      container.prepend(div);
+      document.getElementById('review-form').reset();
+      alert('Thank you — your review was added locally to the page. To save reviews permanently, connect this form to a backend.');
+    }
+    function submitEnquiry(e){
+      e.preventDefault();
+      alert('Enquiry submitted locally. Add server integration (email / Google Forms) to receive enquiries.');
+      document.querySelector('#contact form').reset();
+      return false;
+    }
+    function escapeHtml(s){ return s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }
+  </script>
+</body>
+</html>
