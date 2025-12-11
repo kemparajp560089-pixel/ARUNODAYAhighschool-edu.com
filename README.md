@@ -5,7 +5,6 @@
       <img src="102205.png" 
            alt="Arunodaya High School Logo"
            style="width:70px;height:70px;border-radius:12px;object-fit:cover;background:white;padding:4px;">
-
       <div>
         <h1>ARUNODAYA HIGH SCHOOL — KAMAKSHIPURA</h1>
         <div class="muted">Established 1992 • Kannada medium • Rural (Bengaluru U North)</div>
